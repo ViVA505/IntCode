@@ -1,4 +1,4 @@
-from tkinter import *
+rom tkinter import *
 import ctypes
 import re
 import os
@@ -180,9 +180,7 @@ editArea = Text(
 editArea.pack(fill=BOTH, expand=1)
 
 editArea.insert('1.0', '''from random import randint
-
 print([randint(1, 20) for i in range(10)])
-
 ''')
 
 menu = Menu(root)
